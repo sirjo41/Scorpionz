@@ -22,3 +22,5 @@
 روابط مفيدة
 -----------
 - `الموقع الرسمي للـ FTC <https://www.firstinspires.org/robotics/ftc>`_
+
+Scorpionz THE BEST 
