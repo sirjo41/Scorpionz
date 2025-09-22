@@ -1,8 +1,19 @@
-/* Direction + base Arabic tweaks */
-html, body { direction: rtl; text-align: right; }
-.rst-content, .content, .document { direction: rtl; text-align: right; }
+/* =============================
+   RTL + Base Arabic tweaks
+   ============================= */
+html, body {
+  direction: rtl;
+  text-align: right;
+}
 
-/* Color palette (adjust to taste) */
+.rst-content, .content, .document {
+  direction: rtl;
+  text-align: right;
+}
+
+/* =============================
+   Light Theme (default)
+   ============================= */
 :root {
   --brand: #6a5acd;      /* slate blue */
   --brand-2: #00b894;    /* teal */
@@ -10,6 +21,11 @@ html, body { direction: rtl; text-align: right; }
   --muted: #6b7280;      /* gray text */
   --accent-bg: #eef2ff;  /* soft background */
   --link: #2563eb;       /* link color */
+
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f9fafb;
+  --color-foreground-primary: #1f2937;
+  --color-foreground-secondary: #4b5563;
 }
 
 /* Links */
@@ -24,11 +40,17 @@ h1, h2, h3, .section > h1, .section > h2, .section > h3 {
   margin-bottom: .8rem;
 }
 
-/* Callouts / admonitions */
-.admonition { border-right: 4px solid var(--brand); background: #fafafa; }
-.admonition .admonition-title { background: var(--accent-bg); color: var(--ink); }
+/* Admonitions (light) */
+.admonition {
+  border-right: 4px solid var(--brand);
+  background: #fafafa;
+}
+.admonition .admonition-title {
+  background: var(--accent-bg);
+  color: var(--ink);
+}
 
-/* Buttons (for sphinx-design) */
+/* Buttons (sphinx-design) */
 .sd-btn {
   border-radius: 9999px;
   padding: .45rem .9rem;
@@ -36,7 +58,12 @@ h1, h2, h3, .section > h1, .section > h2, .section > h3 {
 }
 
 /* Tables */
-table.docutils { border-collapse: separate; border-spacing: 0; overflow: hidden; border-radius: 12px; }
+table.docutils {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
 table.docutils th { background: var(--accent-bg); }
 
 /* Code blocks */
@@ -45,84 +72,63 @@ table.docutils th { background: var(--accent-bg); }
   padding: 12px 14px;
 }
 
-/* Nav tweaks (Furo/RTD still OK with RTL) */
+/* Nav tweaks */
 .sidebar, .theme-sidebar { text-align: right; }
 
-/* --- Furo dark-mode fixes for admonitions, cards, tabs, code --- */
-
-/* Optional: tune your dark palette */
-:root{
-  --dm-surface:#0b1220;
-  --dm-card:#060910;
-  --dm-accent:#12131a;
-  --dm-text:#e5e7eb;
-  --dm-border:rgba(148,163,184,.35);
-  --dm-link:#93c5fd;
-}
-
-/* Furo toggles a data-theme attr on <html> */
+/* =============================
+   Dark Theme (toggle with Furo)
+   ============================= */
 html[data-theme="dark"] {
-  color-scheme: dark;
+  --color-background-primary: #0f172a;   /* page background */
+  --color-background-secondary: #1e293b; /* sidebars/cards */
+  --color-foreground-primary: #f1f5f9;   /* main text */
+  --color-foreground-secondary: #cbd5e1; /* muted text */
+  --color-link: #93c5fd;                 /* links */
+  --color-brand-primary: #8b7bff;
+  --color-brand-content: #93c5fd;
 }
 
-/* Core admonitions (Sphinx) */
-html[data-theme="dark"] .admonition,
-html[data-theme="dark"] .note,
-html[data-theme="dark"] .warning,
-html[data-theme="dark"] .important,
-html[data-theme="dark"] .hint,
-html[data-theme="dark"] .tip {
-  background: var(--dm-card) !important;
-  color: var(--dm-text) !important;
-  border: 1px solid var(--dm-border) !important;
+/* Admonitions (dark) */
+html[data-theme="dark"] .admonition {
+  background: var(--color-background-secondary) !important;
+  color: var(--color-foreground-primary) !important;
+  border: 1px solid #334155 !important;
 }
-html[data-theme="dark"] .admonition .admonition-title,
-html[data-theme="dark"] .note .admonition-title,
-html[data-theme="dark"] .warning .admonition-title,
-html[data-theme="dark"] .important .admonition-title,
-html[data-theme="dark"] .hint .admonition-title,
-html[data-theme="dark"] .tip .admonition-title {
-  background: var(--dm-accent) !important;
-  color: var(--dm-text) !important;
-  border-bottom: 1px solid var(--dm-border) !important;
+html[data-theme="dark"] .admonition .admonition-title {
+  background: #1e293b !important;
+  color: var(--color-foreground-primary) !important;
 }
 
-/* sphinx-design components */
+/* Cards & Tabs (sphinx-design) */
 html[data-theme="dark"] .sd-card,
 html[data-theme="dark"] .sd-tabs,
 html[data-theme="dark"] .sd-tab-set > input:checked + label {
-  background: var(--dm-card) !important;
-  color: var(--dm-text) !important;
-  border-color: var(--dm-border) !important;
-}
-html[data-theme="dark"] .sd-btn { color: var(--dm-text) !important; border-color: var(--dm-border) !important; }
-html[data-theme="dark"] .sd-alert {
-  background: var(--dm-card) !important;
-  color: var(--dm-text) !important;
-  border: 1px solid var(--dm-border) !important;
-}
-html[data-theme="dark"] .sd-alert .sd-alert-title {
-  background: var(--dm-accent) !important;
-  color: var(--dm-text) !important;
-  border-bottom: 1px solid var(--dm-border) !important;
+  background: var(--color-background-secondary) !important;
+  border: 1px solid #334155 !important;
+  color: var(--color-foreground-primary) !important;
 }
 
-/* Links & headings in dark */
-html[data-theme="dark"] a { color: var(--dm-link) !important; }
+/* Buttons */
+html[data-theme="dark"] .sd-btn {
+  color: var(--color-foreground-primary) !important;
+  border-color: #334155 !important;
+}
+
+/* Code blocks & Tables */
+html[data-theme="dark"] .highlight pre,
+html[data-theme="dark"] table.docutils {
+  background: var(--color-background-secondary) !important;
+  color: var(--color-foreground-primary) !important;
+  border-color: #334155 !important;
+}
+
+/* Headings in dark mode */
 html[data-theme="dark"] h1,
 html[data-theme="dark"] h2,
 html[data-theme="dark"] h3,
 html[data-theme="dark"] .section > h1,
 html[data-theme="dark"] .section > h2,
 html[data-theme="dark"] .section > h3 {
-  color: var(--dm-text) !important;
-  border-bottom-color: var(--dm-link) !important;
-}
-
-/* Code blocks & tables */
-html[data-theme="dark"] .highlight pre,
-html[data-theme="dark"] table.docutils {
-  background: var(--dm-card) !important;
-  color: var(--dm-text) !important;
-  border-color: var(--dm-border) !important;
+  color: var(--color-foreground-primary) !important;
+  border-bottom-color: var(--color-link) !important;
 }

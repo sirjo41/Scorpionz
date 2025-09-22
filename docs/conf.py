@@ -33,13 +33,14 @@ html_theme = "furo"
 html_theme_options = {
     "sidebar_hide_name": True,
     "light_css_variables": {
-        "color-brand-primary": "#6a5acd",    # brand
-        "color-brand-content": "#2563eb",    # links
+        "color-brand-primary": "#6a5acd",
+        "color-brand-content": "#2563eb",
     },
     "dark_css_variables": {
         "color-brand-primary": "#8b7bff",
         "color-brand-content": "#93c5fd",
     },
+    "default_dark_mode": False,  # 👈 force light mode by default
 }
 html_static_path = ['_static']
 
