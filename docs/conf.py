@@ -38,10 +38,9 @@ html_theme_options = {
         "color-brand-content": "#2563eb",
     },
     "dark_css_variables": {
-        "color-brand-primary": "#8b7bff",
-        "color-brand-content": "#93c5fd",
     },
     "default_dark_mode": False,  # 👈 force light mode by default
+    "top_of_page_button": None, 
 }
 html_static_path = ['_static']
 

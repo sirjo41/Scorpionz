@@ -132,3 +132,6 @@ html[data-theme="dark"] .section > h3 {
   color: var(--color-foreground-primary) !important;
   border-bottom-color: var(--color-link) !important;
 }
+.theme-toggle-container { 
+    display: none !important; 
+}
