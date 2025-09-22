@@ -143,10 +143,12 @@ html[data-theme="dark"] .sd-tab-set > input:checked + label {
   border-bottom: 1px solid var(--color-background-primary) !important;
 }
 
-html[data-theme="dark"] .sd-tab-content {
+/* Force tab content panel in dark mode */
+html[data-theme="dark"] .sd-tab-content,
+html[data-theme="dark"] .sd-tab-content p,
+html[data-theme="dark"] .sd-tab-content li {
   background: var(--color-background-secondary) !important;
   color: var(--color-foreground-primary) !important;
-  border-top: none !important;
 }
 
 /* Cards (sphinx-design) */
