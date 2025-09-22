@@ -53,8 +53,8 @@ table.docutils th { background: var(--accent-bg); }
 /* Optional: tune your dark palette */
 :root{
   --dm-surface:#0b1220;
-  --dm-card:#0f172a;
-  --dm-accent:#1f2335;
+  --dm-card:#060910;
+  --dm-accent:#12131a;
   --dm-text:#e5e7eb;
   --dm-border:rgba(148,163,184,.35);
   --dm-link:#93c5fd;

@@ -74,7 +74,6 @@ OpModes
    :gutter: 2
 
    .. card:: الخطوة الأولى
-
       :shadow: sm
 
       ابدأ بكتابة **TeleOp بسيط**:  

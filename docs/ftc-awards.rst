@@ -22,53 +22,53 @@
 .. grid:: 1 1 2 3
    :gutter: 2
 
-   .. card:: Inspire Award
-    
-      :shadow: md
+   .. grid-item::
+      .. card:: Inspire Award
+         :shadow: md
 
-      :bdg-success:`الجائزة الكبرى`  
-      القدوة المثالية – تشمل الأداء، التصميم، الروح، والتوثيق.
+         :bdg-success:`الجائزة الكبرى`  
+         القدوة المثالية – تشمل الأداء، التصميم، الروح، والتوثيق.
 
-   .. card:: Think Award
+   .. grid-item::
+      .. card:: Think Award
+         :shadow: sm
 
-      :shadow: sm
+         :bdg-info:`البرمجة والإبداع`  
+         تركيز على الحلول التقنية المبتكرة.
 
-      :bdg-info:`البرمجة والإبداع`  
-      تركيز على الحلول التقنية المبتكرة.
+   .. grid-item::
+      .. card:: Design Award
+         :shadow: sm
 
-   .. card:: Design Award
+         :bdg-primary:`التصميم`  
+         أفضل ممارسات الهندسة الميكانيكية.
 
-      :shadow: sm
+   .. grid-item::
+      .. card:: Motivate Award
+         :shadow: sm
 
-      :bdg-primary:`التصميم`  
-      أفضل ممارسات الهندسة الميكانيكية.
+         :bdg-warning:`الروح والمجتمع`  
+         أنشطة ملهمة ومشاركة طلابية قوية.
 
-   .. card:: Motivate Award
+   .. grid-item::
+      .. card:: Control Award
+         :shadow: sm
 
-      :shadow: sm
+         :bdg-secondary:`البرمجة المتقدمة`  
+         استخدام ذكي للحساسات والبرمجيات.
 
-      :bdg-warning:`الروح والمجتمع`  
-      أنشطة ملهمة ومشاركة طلابية قوية.
+   .. grid-item::
+      .. card:: Connect Award
+         :shadow: sm
 
-   .. card:: Control Award
+         :bdg-dark:`التواصل`  
+         بناء علاقات مع المهندسين والمجتمع.
 
-      :shadow: sm
+   .. grid-item::
+      .. card:: Judges Award
+         :shadow: sm
 
-      :bdg-secondary:`البرمجة المتقدمة`  
-      استخدام ذكي للحساسات والبرمجيات.
-
-   .. card:: Connect Award
-
-      :shadow: sm
-
-      :bdg-dark:`التواصل`  
-      بناء علاقات مع المهندسين والمجتمع.
-
-.. card:: Judges Award
-
-   :shadow: sm
-
-   جائزة خاصة تمنحها لجنة التحكيم لفرق مميزة تستحق التقدير.
+         جائزة خاصة تمنحها لجنة التحكيم لفرق مميزة تستحق التقدير.
 
 دفتر الهندسة (Engineering Notebook)
 -----------------------------------

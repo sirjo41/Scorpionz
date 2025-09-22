@@ -8,36 +8,37 @@
 قاعدة القيادة (Drivetrain)
 --------------------------
 
-.. grid:: 1
+.. grid:: 1 2 4
    :gutter: 2
 
-   .. card:: Tank Drive
-       car
-      :shadow: sm
+   .. grid-item::
+      .. card:: Tank Drive
+         :shadow: sm
 
-      الأبسط والأكثر موثوقية.  
-      مناسب للفرق الجديدة.
+         الأبسط والأكثر موثوقية.  
+         مناسب للفرق الجديدة.
 
-   .. card:: Mecanum Drive
-       arrows-alt
-      :shadow: sm
+   .. grid-item::
+      .. card:: Mecanum Drive
+         :shadow: sm
 
-      يسمح بالحركة في جميع الاتجاهات.  
-      يتطلب ضبطاً جيداً للبرمجة.
+         يسمح بالحركة في جميع الاتجاهات.  
+         يتطلب ضبطاً جيداً للبرمجة.
 
-   .. card:: H-Drive / X-Drive
-       compass
-      :shadow: sm
+   .. grid-item::
+      .. card:: H-Drive / X-Drive
+         :shadow: sm
 
-      متقدمة وتمنح مرونة عالية.  
-      لكنها أصعب من حيث التصميم.
+         متقدمة وتمنح مرونة عالية.  
+         لكنها أصعب من حيث التصميم.
 
-   .. card:: Swerve Drive
-       sync
-      :shadow: sm
+   .. grid-item::
+      .. card:: Swerve Drive
+         :shadow: sm
 
-      نادرة ومعقدة، لكنها تمنح تحكمًا ممتازًا.  
-      غالباً للفرق ذات الخبرة العالية.
+         نادرة ومعقدة، لكنها تمنح تحكمًا ممتازًا.  
+         غالباً للفرق ذات الخبرة العالية.
+
 
 الهيكل
 ------
@@ -54,32 +55,33 @@
 .. grid:: 1 3
    :gutter: 2
 
-   .. card:: Lifts (رافعات)
-       up
-      :shadow: md
+   .. grid-item::
+      .. card:: Lifts (رافعات)
+         :shadow: md
 
-      عمودية أو متعددة المراحل.  
-      تُستخدم لنقل العناصر إلى ارتفاعات.
+         عمودية أو متعددة المراحل.  
+         تُستخدم لنقل العناصر إلى ارتفاعات.
 
-   .. card:: Arms (أذرع)
-       hand-paper
-      :shadow: md
+   .. grid-item::
+      .. card:: Arms (أذرع)
+         :shadow: md
 
-      مفصلية أو دوارة.  
-      تمنح مرونة في الالتقاط.
+         مفصلية أو دوارة.  
+         تمنح مرونة في الالتقاط.
 
-   .. card:: Intakes (آليات التقاط)
-       arrow-down
-      :shadow: md
+   .. grid-item::
+      .. card:: Intakes (آليات التقاط)
+         :shadow: md
 
-      عجلات مطاطية أو بكرات.  
-      لجمع العناصر بسرعة.
+         عجلات مطاطية أو بكرات.  
+         لجمع العناصر بسرعة.
 
-   .. card:: Climbers (متسلقات)
-       mountain
-      :shadow: md
+   .. grid-item::
+      .. card:: Climbers (متسلقات)
+         :shadow: md
 
-      مصممة لتحديات نهاية المباراة (End Game).  
+         مصممة لتحديات نهاية المباراة (End Game).
+ 
 
 الحساسات
 --------
