@@ -27,7 +27,7 @@ markupsafe==2.1.1
     # via jinja2
 packaging==22.0
     # via sphinx
-pygments==2.13.0
+Pygments>=2.14
     # via sphinx
 pytz==2022.7
     # via babel
