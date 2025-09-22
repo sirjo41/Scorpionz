@@ -30,6 +30,7 @@ language = 'ar'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_logo = "_static/logo.jpg"
 html_theme = "furo"
+html_favicon = "_static/favicon.ico"
 html_theme_options = {
     "sidebar_hide_name": True,
     "light_css_variables": {
