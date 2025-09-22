@@ -43,11 +43,32 @@ h1, h2, h3, .section > h1, .section > h2, .section > h3 {
 /* Admonitions (light) */
 .admonition {
   border-inline-start: 4px solid var(--brand);
-  background: var(--accent-bg); /* use variable instead of hardcoded #fafafa */
+  background: var(--accent-bg); /* variable instead of #fafafa */
 }
 .admonition .admonition-title {
   background: var(--accent-bg);
   color: var(--ink);
+}
+
+/* Tabs (light) */
+.sd-tabs {
+  background: var(--accent-bg);
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+.sd-tab-set > label {
+  background: var(--accent-bg);
+  color: var(--ink);
+  border: 1px solid #e5e7eb;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  margin-inline-end: .2rem;
+  padding: .3rem .7rem;
+  cursor: pointer;
+}
+.sd-tab-set > input:checked + label {
+  background: #fff;
+  border-bottom: 1px solid #fff;
 }
 
 /* Buttons (sphinx-design) */
@@ -99,10 +120,25 @@ html[data-theme="dark"] .admonition .admonition-title {
   color: var(--color-foreground-primary) !important;
 }
 
-/* Cards & Tabs (sphinx-design) */
-html[data-theme="dark"] .sd-card,
-html[data-theme="dark"] .sd-tabs,
+/* Tabs (dark) */
+html[data-theme="dark"] .sd-tabs {
+  background: var(--color-background-secondary) !important;
+  border: 1px solid #334155 !important;
+  color: var(--color-foreground-primary) !important;
+}
+html[data-theme="dark"] .sd-tab-set > label {
+  background: #1e293b !important;
+  color: var(--color-foreground-primary) !important;
+  border: 1px solid #334155 !important;
+}
 html[data-theme="dark"] .sd-tab-set > input:checked + label {
+  background: var(--color-background-primary) !important;
+  border-bottom: 1px solid var(--color-background-primary) !important;
+  color: var(--color-link) !important;
+}
+
+/* Cards (sphinx-design) */
+html[data-theme="dark"] .sd-card {
   background: var(--color-background-secondary) !important;
   border: 1px solid #334155 !important;
   color: var(--color-foreground-primary) !important;
