@@ -1,0 +1,9 @@
+/* rtl.css */
+body {
+  direction: rtl;
+  text-align: right;
+}
+.rst-content {
+  direction: rtl;
+  text-align: right;
+}
