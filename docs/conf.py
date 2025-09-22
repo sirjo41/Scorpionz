@@ -15,6 +15,7 @@ author = 'Scorionz - 26254'
 
 extensions = [
     "sphinx_design",
+    'sphinx_tabs.tabs',
 ]
 
 pygments_style = "friendly"
