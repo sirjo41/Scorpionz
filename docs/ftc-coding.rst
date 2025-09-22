@@ -8,30 +8,26 @@
 المنصات
 -------
 
-.. grid:: 1 3
+.. grid:: 1 4 4 4
    :gutter: 2
 
    .. grid-item::
       .. card:: Java + Android Studio
          
-
          :bdg-success:`الخيار الرسمي`  
          يدعم تطوير متكامل ومرن، ويوفر الوصول الكامل لمكتبات FTC SDK.
 
    .. grid-item::
       .. card:: Blocks Programming
          
-
          :bdg-info:`للمبتدئين`  
          برمجة مرئية بالسحب والإفلات. مثالية للفرق الجديدة.
 
    .. grid-item::
       .. card:: Kotlin
          
-
          مدعومة بشكل جزئي.  
          خيار حديث لمن لديهم خبرة سابقة.
-
 
 OpModes
 -------
@@ -70,7 +66,7 @@ OpModes
 نصائح للمبتدئين
 ---------------
 
-.. grid:: 1 2
+.. grid:: 1 2 2 2
    :gutter: 2
 
    .. grid-item::
@@ -87,13 +83,6 @@ OpModes
          - أضف Autonomous تدريجيًا.  
          - جرب الحساسات خطوة بخطوة.  
          - اختبر الكود مبكرًا على الروبوت.
-
-.. admonition:: تذكير مهم
-   :class: important
-
-   الكود الأفضل هو :bdg-success:`الأبسط والأكثر استقرارًا`.  
-   لا تبدأ بحلول معقدة قبل إتقان الأساسيات.
-بكرًا على الروبوت.
 
 .. admonition:: تذكير مهم
    :class: important

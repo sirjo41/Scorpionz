@@ -19,7 +19,7 @@
 الجوائز الرئيسية
 ----------------
 
-.. grid:: 1 1 2 3
+.. grid:: 1 2 3 3
    :gutter: 2
 
    .. grid-item::
@@ -32,42 +32,36 @@
    .. grid-item::
       .. card:: Think Award
          
-
          :bdg-info:`البرمجة والإبداع`  
          تركيز على الحلول التقنية المبتكرة.
 
    .. grid-item::
       .. card:: Design Award
          
-
          :bdg-primary:`التصميم`  
          أفضل ممارسات الهندسة الميكانيكية.
 
    .. grid-item::
       .. card:: Motivate Award
          
-
          :bdg-warning:`الروح والمجتمع`  
          أنشطة ملهمة ومشاركة طلابية قوية.
 
    .. grid-item::
       .. card:: Control Award
          
-
          :bdg-secondary:`البرمجة المتقدمة`  
          استخدام ذكي للحساسات والبرمجيات.
 
    .. grid-item::
       .. card:: Connect Award
          
-
          :bdg-dark:`التواصل`  
          بناء علاقات مع المهندسين والمجتمع.
 
    .. grid-item::
       .. card:: Judges Award
          
-
          جائزة خاصة تمنحها لجنة التحكيم لفرق مميزة تستحق التقدير.
 
 دفتر الهندسة (Engineering Notebook)
