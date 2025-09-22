@@ -13,28 +13,28 @@
 
    .. grid-item::
       .. card:: Tank Drive
-         :shadow: sm
+         
 
          الأبسط والأكثر موثوقية.  
          مناسب للفرق الجديدة.
 
    .. grid-item::
       .. card:: Mecanum Drive
-         :shadow: sm
+         
 
          يسمح بالحركة في جميع الاتجاهات.  
          يتطلب ضبطاً جيداً للبرمجة.
 
    .. grid-item::
       .. card:: H-Drive / X-Drive
-         :shadow: sm
+         
 
          متقدمة وتمنح مرونة عالية.  
          لكنها أصعب من حيث التصميم.
 
    .. grid-item::
       .. card:: Swerve Drive
-         :shadow: sm
+         
 
          نادرة ومعقدة، لكنها تمنح تحكمًا ممتازًا.  
          غالباً للفرق ذات الخبرة العالية.
@@ -57,28 +57,28 @@
 
    .. grid-item::
       .. card:: Lifts (رافعات)
-         :shadow: md
+         
 
          عمودية أو متعددة المراحل.  
          تُستخدم لنقل العناصر إلى ارتفاعات.
 
    .. grid-item::
       .. card:: Arms (أذرع)
-         :shadow: md
+         
 
          مفصلية أو دوارة.  
          تمنح مرونة في الالتقاط.
 
    .. grid-item::
       .. card:: Intakes (آليات التقاط)
-         :shadow: md
+         
 
          عجلات مطاطية أو بكرات.  
          لجمع العناصر بسرعة.
 
    .. grid-item::
       .. card:: Climbers (متسلقات)
-         :shadow: md
+         
 
          مصممة لتحديات نهاية المباراة (End Game).
  

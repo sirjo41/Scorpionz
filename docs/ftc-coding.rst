@@ -13,21 +13,21 @@
 
    .. grid-item::
       .. card:: Java + Android Studio
-         :shadow: md
+         
 
          :bdg-success:`الخيار الرسمي`  
          يدعم تطوير متكامل ومرن، ويوفر الوصول الكامل لمكتبات FTC SDK.
 
    .. grid-item::
       .. card:: Blocks Programming
-         :shadow: md
+         
 
          :bdg-info:`للمبتدئين`  
          برمجة مرئية بالسحب والإفلات. مثالية للفرق الجديدة.
 
    .. grid-item::
       .. card:: Kotlin
-         :shadow: md
+         
 
          مدعومة بشكل جزئي.  
          خيار حديث لمن لديهم خبرة سابقة.
@@ -87,6 +87,13 @@ OpModes
          - أضف Autonomous تدريجيًا.  
          - جرب الحساسات خطوة بخطوة.  
          - اختبر الكود مبكرًا على الروبوت.
+
+.. admonition:: تذكير مهم
+   :class: important
+
+   الكود الأفضل هو :bdg-success:`الأبسط والأكثر استقرارًا`.  
+   لا تبدأ بحلول معقدة قبل إتقان الأساسيات.
+بكرًا على الروبوت.
 
 .. admonition:: تذكير مهم
    :class: important
