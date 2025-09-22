@@ -4,6 +4,7 @@
 #
 #    pip-compile docs.in
 #
+sphinx==7.3.7
 sphinx_rtd_theme
 furo
 sphinx-design>=0.6
