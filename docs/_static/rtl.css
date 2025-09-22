@@ -42,8 +42,8 @@ h1, h2, h3, .section > h1, .section > h2, .section > h3 {
 
 /* Admonitions (light) */
 .admonition {
-  border-right: 4px solid var(--brand);
-  background: #fafafa;
+  border-inline-start: 4px solid var(--brand);
+  background: var(--accent-bg); /* use variable instead of hardcoded #fafafa */
 }
 .admonition .admonition-title {
   background: var(--accent-bg);
@@ -92,7 +92,7 @@ html[data-theme="dark"] {
 html[data-theme="dark"] .admonition {
   background: var(--color-background-secondary) !important;
   color: var(--color-foreground-primary) !important;
-  border: 1px solid #334155 !important;
+  border-inline-start: 4px solid var(--color-link) !important;
 }
 html[data-theme="dark"] .admonition .admonition-title {
   background: #1e293b !important;
@@ -131,7 +131,4 @@ html[data-theme="dark"] .section > h2,
 html[data-theme="dark"] .section > h3 {
   color: var(--color-foreground-primary) !important;
   border-bottom-color: var(--color-link) !important;
-}
-.theme-toggle-container { 
-    display: none !important; 
 }
