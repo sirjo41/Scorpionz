@@ -1,9 +1,49 @@
-/* rtl.css */
-body {
-  direction: rtl;
-  text-align: right;
+/* Direction + base Arabic tweaks */
+html, body { direction: rtl; text-align: right; }
+.rst-content, .content, .document { direction: rtl; text-align: right; }
+
+/* Color palette (adjust to taste) */
+:root {
+  --brand: #6a5acd;      /* slate blue */
+  --brand-2: #00b894;    /* teal */
+  --ink: #1f2937;        /* dark text */
+  --muted: #6b7280;      /* gray text */
+  --accent-bg: #eef2ff;  /* soft background */
+  --link: #2563eb;       /* link color */
 }
-.rst-content {
-  direction: rtl;
-  text-align: right;
+
+/* Links */
+a { color: var(--link); }
+a:hover { filter: brightness(0.9); }
+
+/* Headings */
+h1, h2, h3, .section > h1, .section > h2, .section > h3 {
+  color: var(--ink);
+  border-bottom: 2px solid var(--brand);
+  padding-bottom: .2rem;
+  margin-bottom: .8rem;
 }
+
+/* Callouts / admonitions */
+.admonition { border-right: 4px solid var(--brand); background: #fafafa; }
+.admonition .admonition-title { background: var(--accent-bg); color: var(--ink); }
+
+/* Buttons (for sphinx-design) */
+.sd-btn {
+  border-radius: 9999px;
+  padding: .45rem .9rem;
+  border: 1px solid var(--brand);
+}
+
+/* Tables */
+table.docutils { border-collapse: separate; border-spacing: 0; overflow: hidden; border-radius: 12px; }
+table.docutils th { background: var(--accent-bg); }
+
+/* Code blocks */
+.highlight pre {
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+/* Nav tweaks (Furo/RTD still OK with RTL) */
+.sidebar, .theme-sidebar { text-align: right; }

@@ -13,7 +13,9 @@ author = 'Scorionz - 26254'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    "sphinx_design",
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -22,10 +24,10 @@ language = 'ar'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'sphinx_rtd_theme'
-html_context = {
-    "theme_direction": "rtl"
+html_logo = "_static/logo.jpg"
+html_theme = "furo"
+html_theme_options = {
+    "sidebar_hide_name": True,
 }
 html_static_path = ['_static']
 
