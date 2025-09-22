@@ -4,7 +4,7 @@
 #
 #    pip-compile docs.in
 #
-sphinx_rtd_theme
+sphinx-book-theme
 furo
 sphinx-tabs
 sphinx-design>=0.6

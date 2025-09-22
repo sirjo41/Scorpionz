@@ -29,7 +29,7 @@ language = 'ar'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_logo = "_static/logo.jpg"
-html_theme = "furo"
+html_theme = "sphinx_book_theme"
 html_favicon = "_static/favicon.ico"
 html_theme_options = {
     "sidebar_hide_name": True,
@@ -38,9 +38,10 @@ html_theme_options = {
         "color-brand-content": "#2563eb",
     },
     "dark_css_variables": {
+        "color-brand-primary": "#8b7bff",
+        "color-brand-content": "#93c5fd",
     },
     "default_dark_mode": False,  # 👈 force light mode by default
-    "top_of_page_button": None, 
 }
 html_static_path = ['_static']
 
