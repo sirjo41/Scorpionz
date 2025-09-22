@@ -11,23 +11,27 @@
 .. grid:: 1 3
    :gutter: 2
 
-   .. card:: Java + Android Studio
-      :shadow: md
+   .. grid-item::
+      .. card:: Java + Android Studio
+         :shadow: md
 
-      :bdg-success:`الخيار الرسمي`  
-      يدعم تطوير متكامل ومرن، ويوفر الوصول الكامل لمكتبات FTC SDK.
+         :bdg-success:`الخيار الرسمي`  
+         يدعم تطوير متكامل ومرن، ويوفر الوصول الكامل لمكتبات FTC SDK.
 
-   .. card:: Blocks Programming
-      :shadow: md
+   .. grid-item::
+      .. card:: Blocks Programming
+         :shadow: md
 
-      :bdg-info:`للمبتدئين`  
-      برمجة مرئية بالسحب والإفلات. مثالية للفرق الجديدة.
+         :bdg-info:`للمبتدئين`  
+         برمجة مرئية بالسحب والإفلات. مثالية للفرق الجديدة.
 
-   .. card:: Kotlin
-      :shadow: md
+   .. grid-item::
+      .. card:: Kotlin
+         :shadow: md
 
-      مدعومة بشكل جزئي.  
-      خيار حديث لمن لديهم خبرة سابقة.
+         مدعومة بشكل جزئي.  
+         خيار حديث لمن لديهم خبرة سابقة.
+
 
 OpModes
 -------
@@ -70,14 +74,13 @@ OpModes
    :gutter: 2
 
    .. card:: الخطوة الأولى
-       play
+
       :shadow: sm
 
       ابدأ بكتابة **TeleOp بسيط**:  
       ربط الأزرار بالمحركات فقط.
 
    .. card:: التطور التدريجي
-       plus-circle
       :shadow: sm
 
       - أضف Autonomous تدريجيًا.  
