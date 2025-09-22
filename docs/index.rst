@@ -4,11 +4,16 @@
    contain the root `toctree` directive.
 
 
-Scorpionz documentation
-=======================
+
+دليل شامل لمسابقة الأف تي سي بالعربية
+=========================
 
 .. toctree::
    :maxdepth: 2
-   :caption: المحتويات:
+   :caption: المحتويات
 
    ftc-intro
+   ftc-team
+   ftc-building
+   ftc-coding
+   ftc-awards
