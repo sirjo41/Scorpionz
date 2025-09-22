@@ -70,6 +70,12 @@ h1, h2, h3, .section > h1, .section > h2, .section > h3 {
   background: #fff;
   border-bottom: 1px solid #fff;
 }
+.sd-tab-content {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0 0 8px 8px;
+  padding: 1rem;
+}
 
 /* Buttons (sphinx-design) */
 .sd-btn {
@@ -124,15 +130,23 @@ html[data-theme="dark"] .admonition .admonition-title {
 html[data-theme="dark"] .sd-tabs,
 html[data-theme="dark"] .sd-tab-set,
 html[data-theme="dark"] .sd-tab-set > label,
-html[data-theme="dark"] .sd-tab-set > input:checked + label {
+html[data-theme="dark"] .sd-tab-set > input:checked + label,
+html[data-theme="dark"] .sd-tab-content {
   background: var(--color-background-secondary) !important;
   color: var(--color-foreground-primary) !important;
   border: 1px solid #334155 !important;
 }
+
 html[data-theme="dark"] .sd-tab-set > input:checked + label {
   background: var(--color-background-primary) !important;
   color: var(--color-link) !important;
   border-bottom: 1px solid var(--color-background-primary) !important;
+}
+
+html[data-theme="dark"] .sd-tab-content {
+  background: var(--color-background-secondary) !important;
+  color: var(--color-foreground-primary) !important;
+  border-top: none !important;
 }
 
 /* Cards (sphinx-design) */
