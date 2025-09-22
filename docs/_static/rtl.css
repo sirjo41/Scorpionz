@@ -43,7 +43,7 @@ h1, h2, h3, .section > h1, .section > h2, .section > h3 {
 /* Admonitions (light) */
 .admonition {
   border-inline-start: 4px solid var(--brand);
-  background: var(--accent-bg); /* variable instead of #fafafa */
+  background: var(--accent-bg);
 }
 .admonition .admonition-title {
   background: var(--accent-bg);
@@ -121,20 +121,18 @@ html[data-theme="dark"] .admonition .admonition-title {
 }
 
 /* Tabs (dark) */
-html[data-theme="dark"] .sd-tabs {
+html[data-theme="dark"] .sd-tabs,
+html[data-theme="dark"] .sd-tab-set,
+html[data-theme="dark"] .sd-tab-set > label,
+html[data-theme="dark"] .sd-tab-set > input:checked + label {
   background: var(--color-background-secondary) !important;
-  border: 1px solid #334155 !important;
-  color: var(--color-foreground-primary) !important;
-}
-html[data-theme="dark"] .sd-tab-set > label {
-  background: #1e293b !important;
   color: var(--color-foreground-primary) !important;
   border: 1px solid #334155 !important;
 }
 html[data-theme="dark"] .sd-tab-set > input:checked + label {
   background: var(--color-background-primary) !important;
-  border-bottom: 1px solid var(--color-background-primary) !important;
   color: var(--color-link) !important;
+  border-bottom: 1px solid var(--color-background-primary) !important;
 }
 
 /* Cards (sphinx-design) */
