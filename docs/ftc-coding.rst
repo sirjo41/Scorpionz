@@ -12,21 +12,18 @@
    :gutter: 2
 
    .. card:: Java + Android Studio
-      :icon: laptop-code
       :shadow: md
 
       :bdg-success:`الخيار الرسمي`  
       يدعم تطوير متكامل ومرن، ويوفر الوصول الكامل لمكتبات FTC SDK.
 
    .. card:: Blocks Programming
-      :icon: cubes
       :shadow: md
 
       :bdg-info:`للمبتدئين`  
       برمجة مرئية بالسحب والإفلات. مثالية للفرق الجديدة.
 
    .. card:: Kotlin
-      :icon: code
       :shadow: md
 
       مدعومة بشكل جزئي.  
@@ -69,18 +66,18 @@ OpModes
 نصائح للمبتدئين
 ---------------
 
-.. grid:: 1 2
+.. grid:: 1
    :gutter: 2
 
    .. card:: الخطوة الأولى
-      :icon: play
+       play
       :shadow: sm
 
       ابدأ بكتابة **TeleOp بسيط**:  
       ربط الأزرار بالمحركات فقط.
 
    .. card:: التطور التدريجي
-      :icon: plus-circle
+       plus-circle
       :shadow: sm
 
       - أضف Autonomous تدريجيًا.  

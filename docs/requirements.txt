@@ -6,7 +6,7 @@
 #
 sphinx_rtd_theme
 furo
-sphinx_design
+sphinx-design>=0.6
 alabaster==0.7.12
     # via sphinx
 babel==2.11.0

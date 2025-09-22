@@ -19,53 +19,53 @@
 الجوائز الرئيسية
 ----------------
 
-.. grid:: 1 2 3
+.. grid:: 1 1 2 3
    :gutter: 2
 
    .. card:: Inspire Award
-      :icon: star
+    
       :shadow: md
 
       :bdg-success:`الجائزة الكبرى`  
       القدوة المثالية – تشمل الأداء، التصميم، الروح، والتوثيق.
 
    .. card:: Think Award
-      :icon: lightbulb
+
       :shadow: sm
 
       :bdg-info:`البرمجة والإبداع`  
       تركيز على الحلول التقنية المبتكرة.
 
    .. card:: Design Award
-      :icon: draft2digital
+
       :shadow: sm
 
       :bdg-primary:`التصميم`  
       أفضل ممارسات الهندسة الميكانيكية.
 
    .. card:: Motivate Award
-      :icon: users
+
       :shadow: sm
 
       :bdg-warning:`الروح والمجتمع`  
       أنشطة ملهمة ومشاركة طلابية قوية.
 
    .. card:: Control Award
-      :icon: gamepad
+
       :shadow: sm
 
       :bdg-secondary:`البرمجة المتقدمة`  
       استخدام ذكي للحساسات والبرمجيات.
 
    .. card:: Connect Award
-      :icon: handshake
+
       :shadow: sm
 
       :bdg-dark:`التواصل`  
       بناء علاقات مع المهندسين والمجتمع.
 
 .. card:: Judges Award
-   :icon: gavel
+
    :shadow: sm
 
    جائزة خاصة تمنحها لجنة التحكيم لفرق مميزة تستحق التقدير.

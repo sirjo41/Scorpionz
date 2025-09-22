@@ -8,32 +8,32 @@
 قاعدة القيادة (Drivetrain)
 --------------------------
 
-.. grid:: 1 2
+.. grid:: 1
    :gutter: 2
 
    .. card:: Tank Drive
-      :icon: car
+       car
       :shadow: sm
 
       الأبسط والأكثر موثوقية.  
       مناسب للفرق الجديدة.
 
    .. card:: Mecanum Drive
-      :icon: arrows-alt
+       arrows-alt
       :shadow: sm
 
       يسمح بالحركة في جميع الاتجاهات.  
       يتطلب ضبطاً جيداً للبرمجة.
 
    .. card:: H-Drive / X-Drive
-      :icon: compass
+       compass
       :shadow: sm
 
       متقدمة وتمنح مرونة عالية.  
       لكنها أصعب من حيث التصميم.
 
    .. card:: Swerve Drive
-      :icon: sync
+       sync
       :shadow: sm
 
       نادرة ومعقدة، لكنها تمنح تحكمًا ممتازًا.  
@@ -55,28 +55,28 @@
    :gutter: 2
 
    .. card:: Lifts (رافعات)
-      :icon: up
+       up
       :shadow: md
 
       عمودية أو متعددة المراحل.  
       تُستخدم لنقل العناصر إلى ارتفاعات.
 
    .. card:: Arms (أذرع)
-      :icon: hand-paper
+       hand-paper
       :shadow: md
 
       مفصلية أو دوارة.  
       تمنح مرونة في الالتقاط.
 
    .. card:: Intakes (آليات التقاط)
-      :icon: arrow-down
+       arrow-down
       :shadow: md
 
       عجلات مطاطية أو بكرات.  
       لجمع العناصر بسرعة.
 
    .. card:: Climbers (متسلقات)
-      :icon: mountain
+       mountain
       :shadow: md
 
       مصممة لتحديات نهاية المباراة (End Game).  
